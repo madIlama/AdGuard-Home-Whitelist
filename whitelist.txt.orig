@@ -1,14 +1,8 @@
-# My Adguard Home whitelist
-# Instagram
-@@||cdninstagram.com^$important
-@@||instagram.com^$important
-@@||instagram.c10r.facebook.com^$important
-# F1 TV
-@@||f1-prod-production.apigee.net^$important
-@@||f1-prod-production.dn.apigee.net^$important
-@@||formula1.com^$important
-# Joyn TV Stream
-@@||yospace.com^$important
+# Blackhole magic
+# Default Drop ,  Block everything
+/.*/
+
+# Begin Whitelist
 # Google
 @@||0.client-channel.google.com^$important
 @@||2.android.pool.ntp.org^$important
@@ -22,6 +16,7 @@
 @@||cse.google.com^$important
 @@||googleapis.com^$important
 @@||gstatic.com^$important
+@@||google.com^$important
 @@||manifest.googlevideo.com^$important
 @@||redirector.googlevideo.com^$important
 @@||video-stats.l.google.com^$important
@@ -35,28 +30,6 @@
 @@||i.ytimg.com^$important
 @@||i1.ytimg.com^$important
 @@||s.ytimg.com^$important
-# Plex
-@@||app.plex.tv^$important
-@@||cpms.spop10.ams.plex.bz^$important
-@@||cpms35.spop10.ams.plex.bz^$important
-@@||dashboard.plex.tv^$important
-@@||meta-db-worker02.pop.ric.plex.bz^$important
-@@||meta.plex.bz^$important
-@@||meta.plex.tv^$important
-@@||my.plexapp.com^$important
-@@||nine.plugins.plexapp.com^$important
-@@||node.plexapp.com^$important
-@@||o1.email.plex.tv^$important
-@@||o2.sg0.plex.tv^$important
-@@||proxy.plex.bz^$important
-@@||proxy.plex.tv^$important
-@@||proxy02.pop.ord.plex.bz^$important
-@@||pubsub.plex.bz^$important
-@@||pubsub.plex.tv^$important
-@@||staging.plex.tv^$important
-@@||status.plex.tv^$important
-@@||tvdb2.plex.tv^$important
-@@||tvthemes.plexapp.com^$important
 # Github
 @@||github.com^$important
 @@||github.io^$important
@@ -64,17 +37,6 @@
 # Cloudflare
 @@||cdn.cloudflare.net^$important
 @@||cdnjs.cloudflare.com^$important
-# Dropbox
-@@||dl.dropbox.com^$important
-@@||dl.dropboxusercontent.com^$important
-@@||ns1.dropbox.com^$important
-@@||ns2.dropbox.com^$important
-# No-IP.com
-@@||no-ip.com^$important
-# Twitter
-@@||twimg.com^$important
-@@||twitter.com^$important
-@@||t.co^$important
 # Optimizely
 @@||cdn.optimizely.com^$important
 @@||cdn2.optimizely.com^$important
@@ -86,40 +48,6 @@
 @@||widget-cdn.rpxnow.com^$important
 @@||akamai.net^$important
 @@||akadns.net^$important
-# Sonarr TV Soft
-@@||apt.sonarr.tv^$important
-@@||download.sonarr.tv^$important
-@@||forums.sonarr.tv^$important
-@@||services.sonarr.tv^$important
-@@||skyhook.sonarr.tv^$important
-# Ipify.org
-@@||api.ipify.org^$important
-# Rlje.net VOD
-@@||api.rlje.net^$important
-# Buffer CDN 
-@@||bufferapp.com^$important
-# Embedly.com
-@@||cdn.embedly.com^$important
-# Dataplicity.com
-@@||dataplicity.com^$important
-# Drift.com
-@@||drift.com^$important
-@@||driftt.com^$important
-# Giphy.com
-@@||giphy.com^$important
-# Gravatar Image
-@@||gravatar.com^$important
-# Ted.com
-@@||hls.ted.com^$important
-@@||app-api.ted.com^$important
-@@||tedcdn.com^$important
-# Vidible Video Platform
-@@||img.vidible.tv^$important
-@@||cdn.vidible.tv^$important
-@@||delivery.vidible.tv^$important
-@@||videos.vidible.tv^$important
-# ImgIX
-@@||imgix.net^$important
 # XKCD
 @@||imgs.xkcd.com^$important
 #Bitly URL Shortener
@@ -130,49 +58,10 @@
 @@||jsdelivr.net^$important
 # Malwarebytes Anti-Malware
 @@||keystone.mwbsys.com^$important
-# Aliexpress.com
-@@||login.aliexpress.com^$important
-# Adswizz sponsor clips before several podcasts
-@@||npr-news.streaming.adswizz.com^$important
-# CBS Television Stream
-@@||cbsi.com^$important
-@@||cbsinteractive.hb.omtrdc.net^$important
-@@||s0.2mdn.net^$important
-# Audioscrobbler.com
-@@||ws.audioscrobbler.com^$important
-# Pinterest
-@@||pinterest.com^$important
-# Placehold it image soft
-@@||placehold.it^$important
-@@||placeholdit.imgix.net^$important
-# Brightcove Player
-@@||brightcove.net^$important
-@@||secure.brightcove.com^$important
-@@||edge.api.brightcove.com^$important
-# Cloudinary Upload Platform
-@@||res.cloudinary.com^$important
-# Shopify.com eCommerce Software
-@@||v.shopify.com^$important
-@@||s.shopify.com^$important
-# Wordpress
-@@||wp.com^$important
-@@||wordpress.com^$important
-# Avangate Shop
-@@||secure.avangate.com^$important
-# Surveymonkey
-@@||secure.surveymonkey.com^$important
-# JW Player
-@@||ssl.p.jwpcdn.com^$important
-# Tawk Live Chat
-@@||tawk.to^$important
-# Themoviedb.com
-@@||themoviedb.com^$important
-# Thetvdb.com
-@@||thetvdb.com^$important
-# Tinyurl Shortener
-@@||tinyurl.com^$important
-# Libsyn Podcast Hosting
-@@||traffic.libsyn.com^$important
+# Giphy.com
+@@||giphy.com^$important
+# Gravatar Image
+@@||gravatar.com^$important
 # Wikipedia
 @@||wikipedia.org^$important
 # Microsoft
@@ -217,6 +106,137 @@
 @@||dl.delivery.mp.microsoft.com^$important
 @@||1drv.com^$important
 @@||aspnetcdn.com^$important
+# WhatsApp
+@@||whatsapp.net^$important
+@@||whatsapp.com^$important
+# Firefox Browser
+@@||detectportal.firefox.com^$important
+# Other Search Engine
+@@||yahoo.com^$important
+@@||bing.com^$important
+@@||duckduckgo.com^$important
+
+
+
+#
+# Legacy, Example whitelist rule
+# My Adguard Home whitelist
+# Instagram
+@@||cdninstagram.com^$important
+@@||instagram.com^$important
+@@||instagram.c10r.facebook.com^$important
+# F1 TV
+@@||f1-prod-production.apigee.net^$important
+@@||f1-prod-production.dn.apigee.net^$important
+@@||formula1.com^$important
+# Joyn TV Stream
+@@||yospace.com^$important
+# Plex
+@@||app.plex.tv^$important
+@@||cpms.spop10.ams.plex.bz^$important
+@@||cpms35.spop10.ams.plex.bz^$important
+@@||dashboard.plex.tv^$important
+@@||meta-db-worker02.pop.ric.plex.bz^$important
+@@||meta.plex.bz^$important
+@@||meta.plex.tv^$important
+@@||my.plexapp.com^$important
+@@||nine.plugins.plexapp.com^$important
+@@||node.plexapp.com^$important
+@@||o1.email.plex.tv^$important
+@@||o2.sg0.plex.tv^$important
+@@||proxy.plex.bz^$important
+@@||proxy.plex.tv^$important
+@@||proxy02.pop.ord.plex.bz^$important
+@@||pubsub.plex.bz^$important
+@@||pubsub.plex.tv^$important
+@@||staging.plex.tv^$important
+@@||status.plex.tv^$important
+@@||tvdb2.plex.tv^$important
+@@||tvthemes.plexapp.com^$important
+# Dropbox
+@@||dl.dropbox.com^$important
+@@||dl.dropboxusercontent.com^$important
+@@||ns1.dropbox.com^$important
+@@||ns2.dropbox.com^$important
+# No-IP.com
+@@||no-ip.com^$important
+# Twitter
+@@||twimg.com^$important
+@@||twitter.com^$important
+@@||t.co^$important
+# Sonarr TV Soft
+@@||apt.sonarr.tv^$important
+@@||download.sonarr.tv^$important
+@@||forums.sonarr.tv^$important
+@@||services.sonarr.tv^$important
+@@||skyhook.sonarr.tv^$important
+# Ipify.org
+@@||api.ipify.org^$important
+# Rlje.net VOD
+@@||api.rlje.net^$important
+# Buffer CDN 
+@@||bufferapp.com^$important
+# Embedly.com
+@@||cdn.embedly.com^$important
+# Dataplicity.com
+@@||dataplicity.com^$important
+# Drift.com
+@@||drift.com^$important
+@@||driftt.com^$important
+# Ted.com
+@@||hls.ted.com^$important
+@@||app-api.ted.com^$important
+@@||tedcdn.com^$important
+# Vidible Video Platform
+@@||img.vidible.tv^$important
+@@||cdn.vidible.tv^$important
+@@||delivery.vidible.tv^$important
+@@||videos.vidible.tv^$important
+# ImgIX
+@@||imgix.net^$important
+# Aliexpress.com
+@@||login.aliexpress.com^$important
+# Adswizz sponsor clips before several podcasts
+@@||npr-news.streaming.adswizz.com^$important
+# CBS Television Stream
+@@||cbsi.com^$important
+@@||cbsinteractive.hb.omtrdc.net^$important
+@@||s0.2mdn.net^$important
+# Audioscrobbler.com
+@@||ws.audioscrobbler.com^$important
+# Pinterest
+@@||pinterest.com^$important
+# Placehold it image soft
+@@||placehold.it^$important
+@@||placeholdit.imgix.net^$important
+# Brightcove Player
+@@||brightcove.net^$important
+@@||secure.brightcove.com^$important
+@@||edge.api.brightcove.com^$important
+# Cloudinary Upload Platform
+@@||res.cloudinary.com^$important
+# Shopify.com eCommerce Software
+@@||v.shopify.com^$important
+@@||s.shopify.com^$important
+# Wordpress
+@@||wp.com^$important
+@@||wordpress.com^$important
+# Avangate Shop
+@@||secure.avangate.com^$important
+# Surveymonkey
+@@||secure.surveymonkey.com^$important
+# JW Player
+@@||ssl.p.jwpcdn.com^$important
+# Tawk Live Chat
+@@||tawk.to^$important
+# Themoviedb.com
+@@||themoviedb.com^$important
+# Thetvdb.com
+@@||thetvdb.com^$important
+# Tinyurl Shortener
+@@||tinyurl.com^$important
+# Libsyn Podcast Hosting
+@@||traffic.libsyn.com^$important
 # Netflix
 @@||api-global.netflix.com^$important
 @@||ichnaea.netflix.com^$important
@@ -303,14 +323,10 @@
 # German Corona Apps Very Special lol
 @@||corona-datenspende.de^$important
 @@||datenspende.und-gesund.de^$important
-# Firefox Browser
-@@||detectportal.firefox.com^$important
 # German Corona Warn App
 @@||svc90.main.px.t-online.de^$important
 # Earthquake App
 @@||fe-lb.tranquilli.org^$important
 # Reddit
 @@||reddit.com^$important
-# WhatsApp
-@@||whatsapp.net^$important
-@@||whatsapp.com^$important
+
