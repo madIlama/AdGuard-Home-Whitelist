@@ -1,0 +1,4 @@
+# Blackhole magic
+# Default Drop ,  Block everything
+/.*/
+
